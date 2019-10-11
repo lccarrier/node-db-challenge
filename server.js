@@ -5,7 +5,7 @@ server.use(express.json());
 server.use("/projects", ProjectRouter);
 
 server.get("/", (req, res) => {
-    res.status(200).send(`Yolo!`);
+    res.status(200).send(`Let's go to Mars!`);
 });
 
 module.exports = server;

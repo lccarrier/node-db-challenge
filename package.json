@@ -4,6 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/lccarrier/node-db-challenge.git",
   "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
   "dependencies": {
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
